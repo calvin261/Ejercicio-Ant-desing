@@ -36,3 +36,22 @@
     transform: rotate(360deg);
   }
 }
+/*Cuadrado*/
+.cuadrado {
+
+  padding: 20px;
+  margin: 20px;
+  border: 1px solid #ccc;
+
+  background-color:rgb(243, 151, 151);
+}
+.cuadrado > div {
+  display: flex;
+  flex-direction: column;
+
+  border: 1px solid #ccc;
+  background-color:red;
+}
+.color1{
+  background-color: #42eff5
+}
